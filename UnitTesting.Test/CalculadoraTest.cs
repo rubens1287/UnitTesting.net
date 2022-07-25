@@ -1,3 +1,5 @@
+using Xunit;
+
 namespace UnitTesting.Tests
 {
     using Calculadora;

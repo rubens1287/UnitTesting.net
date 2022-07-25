@@ -5998,11 +5998,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\rslo\\source\\repos\\UnitTesting\\UnitTesting.Test\\UnitTesting.Test.csproj",
+      "projectUniqueName": "C:\\Users\\rslo\\source\\repos\\new\\UnitTesting.net\\UnitTesting.Test\\UnitTesting.Test.csproj",
       "projectName": "UnitTesting.Test",
-      "projectPath": "C:\\Users\\rslo\\source\\repos\\UnitTesting\\UnitTesting.Test\\UnitTesting.Test.csproj",
+      "projectPath": "C:\\Users\\rslo\\source\\repos\\new\\UnitTesting.net\\UnitTesting.Test\\UnitTesting.Test.csproj",
       "packagesPath": "C:\\Users\\rslo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\rslo\\source\\repos\\UnitTesting\\UnitTesting.Test\\obj\\",
+      "outputPath": "C:\\Users\\rslo\\source\\repos\\new\\UnitTesting.net\\UnitTesting.Test\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\rslo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -6019,8 +6019,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\rslo\\source\\repos\\UnitTesting\\UnitTesting\\UnitTesting.csproj": {
-              "projectPath": "C:\\Users\\rslo\\source\\repos\\UnitTesting\\UnitTesting\\UnitTesting.csproj"
+            "C:\\Users\\rslo\\source\\repos\\new\\UnitTesting.net\\UnitTesting\\UnitTesting.csproj": {
+              "projectPath": "C:\\Users\\rslo\\source\\repos\\new\\UnitTesting.net\\UnitTesting\\UnitTesting.csproj"
             }
           }
         }

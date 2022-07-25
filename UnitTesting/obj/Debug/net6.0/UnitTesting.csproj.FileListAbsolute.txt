@@ -10,3 +10,15 @@ C:\Users\rslo\source\repos\UnitTesting\UnitTesting\obj\Debug\net6.0\UnitTesting.
 C:\Users\rslo\source\repos\UnitTesting\UnitTesting\obj\Debug\net6.0\refint\UnitTesting.dll
 C:\Users\rslo\source\repos\UnitTesting\UnitTesting\obj\Debug\net6.0\UnitTesting.pdb
 C:\Users\rslo\source\repos\UnitTesting\UnitTesting\obj\Debug\net6.0\ref\UnitTesting.dll
+C:\Users\rslo\source\repos\new\UnitTesting.net\UnitTesting\bin\Debug\net6.0\UnitTesting.deps.json
+C:\Users\rslo\source\repos\new\UnitTesting.net\UnitTesting\bin\Debug\net6.0\UnitTesting.dll
+C:\Users\rslo\source\repos\new\UnitTesting.net\UnitTesting\bin\Debug\net6.0\UnitTesting.pdb
+C:\Users\rslo\source\repos\new\UnitTesting.net\UnitTesting\obj\Debug\net6.0\UnitTesting.csproj.AssemblyReference.cache
+C:\Users\rslo\source\repos\new\UnitTesting.net\UnitTesting\obj\Debug\net6.0\UnitTesting.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rslo\source\repos\new\UnitTesting.net\UnitTesting\obj\Debug\net6.0\UnitTesting.AssemblyInfoInputs.cache
+C:\Users\rslo\source\repos\new\UnitTesting.net\UnitTesting\obj\Debug\net6.0\UnitTesting.AssemblyInfo.cs
+C:\Users\rslo\source\repos\new\UnitTesting.net\UnitTesting\obj\Debug\net6.0\UnitTesting.csproj.CoreCompileInputs.cache
+C:\Users\rslo\source\repos\new\UnitTesting.net\UnitTesting\obj\Debug\net6.0\UnitTesting.dll
+C:\Users\rslo\source\repos\new\UnitTesting.net\UnitTesting\obj\Debug\net6.0\refint\UnitTesting.dll
+C:\Users\rslo\source\repos\new\UnitTesting.net\UnitTesting\obj\Debug\net6.0\UnitTesting.pdb
+C:\Users\rslo\source\repos\new\UnitTesting.net\UnitTesting\obj\Debug\net6.0\ref\UnitTesting.dll
