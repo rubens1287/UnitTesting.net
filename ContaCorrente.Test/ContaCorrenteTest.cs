@@ -16,7 +16,7 @@ namespace UnitTesting.Test
             var contaCorrente = new ContaCorrenteConsumer(new ContaCorrente());
 
             //Act
-            contaCorrente.Depositar(deposito);
+            contaCorrente.Deposita(deposito);
             var actual = contaCorrente.Saque(saque);
 
             //Assert
@@ -30,22 +30,18 @@ namespace UnitTesting.Test
             int saldo = 10;
             int saque = 8;
             int expect = 2;
-            var moqContaCorrente = new Mock<IContaCorrente>();
-            var contaCorrente = new ContaCorrenteConsumer(moqContaCorrente.Object);
-            moqContaCorrente.Setup(x => x.Saldo).Returns(saldo);
+            var mock = new Mock<IContaCorrente>();
+            var contaCorrenteConsumer = new ContaCorrenteConsumer(mock.Object);
+            mock.SetupAllProperties();
+            mock.Object.Saldo = saldo;
 
             //Act
-            var actual = contaCorrente.Saque(saque);
-
-            var saldoAtu = contaCorrente.ConsultaSaldo();
+            var actual = contaCorrenteConsumer.Saque(saque);
 
             //Assert
             Assert.Equal(expect, actual);
-            moqContaCorrente.VerifyGet(x => x.Saldo, Times.Exactly(2));
+            mock.VerifyGet(m => m.Saldo,Times.Exactly(3));
 
         }
-
-      
-
     }
 }

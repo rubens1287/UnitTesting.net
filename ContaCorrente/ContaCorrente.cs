@@ -6,7 +6,12 @@
 
         public void ZeraSaldo()
         {
-            Saldo = 0;
+            this.Saldo = 0;
+        }
+
+        public double GetSaldo()
+        {
+            return this.Saldo;
         }
     }
 }

@@ -4,14 +4,13 @@
     {
         private readonly IContaCorrente _contaCorrente;
 
-
         public ContaCorrenteConsumer(IContaCorrente contaCorrente)
         {
             _contaCorrente = contaCorrente;
             _contaCorrente.ZeraSaldo();
         }
 
-        public double Depositar(double valor)
+        public double Deposita(double valor)
         {
             if (valor <= 10)
             {
@@ -33,13 +32,8 @@
             {
                 _contaCorrente.Saldo = _contaCorrente.Saldo - valor;
             }
+
             return _contaCorrente.Saldo;
         }
-
-        public double ConsultaSaldo()
-        {
-            return _contaCorrente.Saldo;
-        }
-
     }
 }

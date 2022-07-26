@@ -11,6 +11,5 @@ namespace UnitTesting.contaCorrente
         double Saldo { get; set; }
 
         void ZeraSaldo();
-        
     }
 }
