@@ -1710,6 +1710,9 @@
       "UnitTesting/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Moq": "4.18.1"
+        },
         "compile": {
           "bin/placeholder/UnitTesting.dll": {}
         },

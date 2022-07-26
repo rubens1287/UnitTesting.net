@@ -7,7 +7,7 @@ namespace UnitTesting.Test
         [Fact]
         public void TestComValorMenorQueZero()
         {
-            //arrange
+            //Arrange
             Fatorial fatorial = new Fatorial();
             int actual;
             int expect = 0;
@@ -23,7 +23,7 @@ namespace UnitTesting.Test
         [Fact]
         public void TestComValorIgualZero()
         {
-            //arrange
+            //Arrange
             Fatorial fatorial = new Fatorial();
             int actual;
             int expect = 1;
@@ -40,7 +40,7 @@ namespace UnitTesting.Test
         [Fact]
         public void TestComValorMaiorQueZero()
         {
-            //arrange
+            //Arrange
             Fatorial fatorial = new Fatorial();
             int actual;
             int expect = 6;

@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "Z8bIdMCWY8rbS7ZrYGHwyhLUO7G9avP7Y+T/LoPrUxe+05GVVBsXJmM+SdWlyCWb6sHlM79WIthyXWIqC+2tNg==",
+  "dgSpecHash": "HfXUIoQp8QU8e3V+eTUBztAIRb0L6rt9STbAsdhBh0ZPSmtiN0L4Rzi6FDkZGoxjj5gpKsONRLkRGofaUD2d3w==",
   "success": true,
   "projectFilePath": "C:\\Users\\rslo\\source\\repos\\new\\UnitTesting.net\\UnitTesting\\UnitTesting.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\rslo\\.nuget\\packages\\castle.core\\5.0.0\\castle.core.5.0.0.nupkg.sha512",
+    "C:\\Users\\rslo\\.nuget\\packages\\moq\\4.18.1\\moq.4.18.1.nupkg.sha512",
+    "C:\\Users\\rslo\\.nuget\\packages\\system.diagnostics.eventlog\\6.0.0\\system.diagnostics.eventlog.6.0.0.nupkg.sha512",
+    "C:\\Users\\rslo\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512"
+  ],
   "logs": []
 }

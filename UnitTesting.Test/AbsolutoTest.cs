@@ -1,6 +1,6 @@
 using Xunit;
 
-namespace UnitTesting.Tests
+namespace UnitTesting.Test
 {
     
     public class AbsolutoTest
@@ -8,7 +8,7 @@ namespace UnitTesting.Tests
         [Fact]
         public void TestComValorMenorQueZero()
         {
-            //arrange
+            //Arrange
             Absoluto absoluto = new Absoluto();
             int actual;
             int expect = 1;
@@ -24,7 +24,7 @@ namespace UnitTesting.Tests
         [Fact]
         public void TestComValorZero()
         {
-            //arrange
+            //Arrange
             Absoluto absoluto = new Absoluto();
             int actual;
             int expect = 0;

@@ -1,6 +1,6 @@
 using Xunit;
 
-namespace UnitTesting.Tests
+namespace UnitTesting.Test
 {
     using Calculadora;
     public class CalculadoraTest
@@ -8,7 +8,7 @@ namespace UnitTesting.Tests
         [Fact]
         public void ValidaSoma()
         {
-            //Arange
+            //Arrange
             int valor1 = 10;
             int valor2 = 10;
             int expect = 20;
@@ -24,7 +24,7 @@ namespace UnitTesting.Tests
         [Fact]
         public void ValidaMultiplicacao()
         {
-            //Arange
+            //Arrange
             int valor1 = 2;
             int valor2 = 2;
             int expect = 4;
@@ -40,7 +40,7 @@ namespace UnitTesting.Tests
         [Fact]
         public void ValidaSubtracao()
         {
-            //Arange
+            //Arrange
             int valor1 = 10;
             int valor2 = 2;
             int expect = 8;
@@ -56,7 +56,7 @@ namespace UnitTesting.Tests
         [Fact]
         public void ValidaDivisaoComZeroDivisor()
         {
-            //Arange
+            //Arrange
             int dividento = 10;
             int divisor = 0;
             int expect = 0;
@@ -72,7 +72,7 @@ namespace UnitTesting.Tests
         [Fact]
         public void ValidaDivisaoComDivisorMaiorQueZero()
         {
-            //Arange
+            //Arrange
             int dividento = 10;
             int divisor = 2;
             int expect = 5;
