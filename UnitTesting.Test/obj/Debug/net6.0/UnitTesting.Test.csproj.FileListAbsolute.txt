@@ -100,7 +100,6 @@ C:\Users\rslo\source\repos\UnitTesting\UnitTesting.Test\obj\Debug\net6.0\refint\
 C:\Users\rslo\source\repos\UnitTesting\UnitTesting.Test\obj\Debug\net6.0\UnitTesting.Test.pdb
 C:\Users\rslo\source\repos\UnitTesting\UnitTesting.Test\obj\Debug\net6.0\UnitTesting.Test.genruntimeconfig.cache
 C:\Users\rslo\source\repos\UnitTesting\UnitTesting.Test\obj\Debug\net6.0\ref\UnitTesting.Test.dll
-C:\Users\rslo\source\repos\new\UnitTesting.net\UnitTesting.Test\bin\Debug\net6.0\CoverletSourceRootsMapping
 C:\Users\rslo\source\repos\new\UnitTesting.net\UnitTesting.Test\bin\Debug\net6.0\testhost.exe
 C:\Users\rslo\source\repos\new\UnitTesting.net\UnitTesting.Test\bin\Debug\net6.0\testhost.dll
 C:\Users\rslo\source\repos\new\UnitTesting.net\UnitTesting.Test\bin\Debug\net6.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll
@@ -202,3 +201,8 @@ C:\Users\rslo\source\repos\new\UnitTesting.net\UnitTesting.Test\obj\Debug\net6.0
 C:\Users\rslo\source\repos\new\UnitTesting.net\UnitTesting.Test\obj\Debug\net6.0\UnitTesting.Test.pdb
 C:\Users\rslo\source\repos\new\UnitTesting.net\UnitTesting.Test\obj\Debug\net6.0\UnitTesting.Test.genruntimeconfig.cache
 C:\Users\rslo\source\repos\new\UnitTesting.net\UnitTesting.Test\obj\Debug\net6.0\ref\UnitTesting.Test.dll
+C:\Users\rslo\source\repos\new\UnitTesting.net\UnitTesting.Test\bin\Debug\net6.0\Castle.Core.dll
+C:\Users\rslo\source\repos\new\UnitTesting.net\UnitTesting.Test\bin\Debug\net6.0\Moq.dll
+C:\Users\rslo\source\repos\new\UnitTesting.net\UnitTesting.Test\bin\Debug\net6.0\System.Diagnostics.EventLog.dll
+C:\Users\rslo\source\repos\new\UnitTesting.net\UnitTesting.Test\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Diagnostics.EventLog.Messages.dll
+C:\Users\rslo\source\repos\new\UnitTesting.net\UnitTesting.Test\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Diagnostics.EventLog.dll

@@ -29,7 +29,7 @@ namespace UnitTesting
             } 
             else
             {
-                setSaldo(valor);
+                setSaldo(getSaldo() - valor);
             }
             return getSaldo();
         }
@@ -46,12 +46,12 @@ namespace UnitTesting
             return getSaldo();
         }
 
-        public void setSaldo(double value)
+        private void setSaldo(double value)
         {
             this.Saldo = value;
         }
 
-        public double getSaldo()
+        private double getSaldo()
         {
             return this.Saldo;
         }
