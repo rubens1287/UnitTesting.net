@@ -7,6 +7,69 @@ namespace UnitTesting.Test
     public class ContaCorrenteTest
     {
         [Fact]
+        public void ValidaDepositoIgualUm()
+        {
+            //Arrange
+            int deposito = 1;
+            int expect = 1;
+            var contaCorrente = new ContaCorrenteConsumer(new ContaCorrente());
+
+            //Act
+            var actual = contaCorrente.Deposita(deposito);
+
+            //Assert
+            Assert.Equal(expect, actual);
+
+        }
+
+        [Fact]
+        public void ValidaDepositoMaiorQueDez()
+        {
+            //Arrange
+            int deposito = 11;
+            int expect = 0;
+            var contaCorrente = new ContaCorrenteConsumer(new ContaCorrente());
+
+            //Act
+            var actual = contaCorrente.Deposita(deposito);
+
+            //Assert
+            Assert.Equal(expect, actual);
+
+        }
+
+        [Fact]
+        public void ValidaDepositoIgualDez()
+        {
+            //Arrange
+            int deposito = 10;
+            int expect = 10;
+            var contaCorrente = new ContaCorrenteConsumer(new ContaCorrente());
+
+            //Act
+            var actual = contaCorrente.Deposita(deposito);
+
+            //Assert
+            Assert.Equal(expect, actual);
+
+        }
+
+        [Fact]
+        public void ValidaSaqueSemSaldo()
+        {
+            //Arrange
+            int saque = 8;
+            int expect = 0;
+            var contaCorrente = new ContaCorrenteConsumer(new ContaCorrente());
+
+            //Act
+            var actual = contaCorrente.Saque(saque);
+
+            //Assert
+            Assert.Equal(expect, actual);
+        }
+
+        [Fact]
         public void ValidaSaqueComSaldo()
         {
             //Arrange
@@ -23,8 +86,9 @@ namespace UnitTesting.Test
             Assert.Equal(expect, actual);
         }
 
+
         [Fact]
-        public void ValidaSaqueComSaldoMoQ()
+        public void ValidaSaqueComSaldoComMock()
         {
             //Arrange
             int saldo = 10;
@@ -43,5 +107,8 @@ namespace UnitTesting.Test
             mock.VerifyGet(m => m.Saldo,Times.Exactly(3));
 
         }
+
+       
+
     }
 }
