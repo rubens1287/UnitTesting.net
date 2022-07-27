@@ -1,4 +1,6 @@
-# PROJETO PARA TREINAMENTO DE TESTES DE UNIDADE EM .NET
+## PROJETO PARA TREINAMENTO DE TESTES DE UNIDADE EM .NET
+
+Projeto utilizado para treinamento de teste de unidade com intuito de abordar os conceitos sobre testes de unidades.
 
 ## PRE REQUISITOS
 
