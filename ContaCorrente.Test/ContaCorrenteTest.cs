@@ -108,7 +108,24 @@ namespace UnitTesting.Test
 
         }
 
-       
 
+        [Fact]
+        public void ValidaSaqueSemSaldoComMock()
+        {
+            //Arrange
+            int saldo = 0;
+            int saque = 8;
+            int expect = 0;
+            var mock = new Mock<IContaCorrente>();
+            var contaCorrenteConsumer = new ContaCorrenteConsumer(mock.Object);
+            mock.SetupAllProperties();
+            mock.Object.Saldo = saldo;
+
+            //Act
+            contaCorrenteConsumer.Saque(saque);
+
+            //Assert
+            mock.VerifySet(m => m.Saldo = expect, Times.Exactly(1));
+        }
     }
 }
